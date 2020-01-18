@@ -33,6 +33,16 @@ obj2["First Name"] = 'Adekunle'
 console.log(obj2["First Name"]);
 
 // Property value Shorthand
+// declare variable
+let name = 'oluwasetemi';
+let age = 20;
+
+const temp = {
+    name,
+    age
+}
+
+// creating a function that return an object
 function shotname(lg, region){
     return {
         lg:lg,
@@ -58,7 +68,9 @@ console.log(me1.region1);
 // syntx: key in object
 console.log('lg1' in me1);
 
+// loop through all the properpties of an object
 for (let lg1 in me1) {
     console.log(object);
 }
 
+// what about the other things we talked about?
